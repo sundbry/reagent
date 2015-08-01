@@ -1,7 +1,9 @@
-(defproject reagent "0.5.1-SNAPSHOT"
+(defproject sundbry/reagent "0.5.1-SNAPSHOT"
   :url "http://github.com/reagent-project/reagent"
   :license {:name "MIT"}
   :description "A simple ClojureScript interface to React"
+
+  :repositories [["snapshots" {:url "http://mises.etheride.com:8081/nexus/content/repositories/snapshots"}]]
 
   :dependencies [[org.clojure/clojure "1.7.0-RC1"]
                  [org.clojure/clojurescript "0.0-3308"]
