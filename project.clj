@@ -3,8 +3,6 @@
   :license {:name "MIT"}
   :description "A simple ClojureScript interface to React"
 
-  :repositories [["snapshots" {:url "http://mises.etheride.com:8081/nexus/content/repositories/snapshots"}]]
-
   :dependencies [[org.clojure/clojure "1.7.0-RC1"]
                  [org.clojure/clojurescript "0.0-3308"]
                  [cljsjs/react "0.13.3-0"]]
